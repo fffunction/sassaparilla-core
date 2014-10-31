@@ -1,0 +1,20 @@
+// ------------------------------------------------------------
+// Placeholders
+// ------------------------------------------------------------
+
+// Type and rhythm
+%is-uppercase 			{ text-transform: uppercase; letter-spacing: 1px; }
+%is-lowercase 			{ text-transform: lowercase; }
+%is-titlecase 			{ letter-spacing: -1px; }
+%no-leader 				{ margin-top: 0; }
+%no-trailer 			{ margin-bottom: 0; }
+
+// Clearfixes
+%clearfix 				{ @include clearfix; }
+%pie-clearfix 			{ @include pie-clearfix; }
+
+// Images
+%max-width 				{ max-width: 100%; height: auto; }
+
+// Fonts
+%font-body 				{ font-family: Helvetica, sans-serif; }

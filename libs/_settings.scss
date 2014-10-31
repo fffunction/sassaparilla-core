@@ -1,0 +1,84 @@
+// ------------------------------------------------------------
+// Settings
+// ------------------------------------------------------------
+
+@import "color";
+
+// ------------------------------------------------------------
+// :: Grid
+// ------------------------------------------------------------
+
+$internal-spacing-percent 			: 3%;		// Used mainly by grid system
+$internal-spacing					: 20px; 	// Space internally with fixed measure
+
+
+// ------------------------------------------------------------
+// :: Breakpoints
+
+// Change to fit the design, not specific screens
+// Add and replace as needed
+// ------------------------------------------------------------
+
+$a-vp								: 300px;	// first viewport change @
+$b-vp 								: 500px;
+$c-vp 								: 760px;
+$d-vp 								: 980px;
+$max-grid 							: 1100px; 								// Max grid width
+$max-vp 							: ($max-grid + $internal-spacing*2); 	// Max viewport width
+$ie-fixed-vp						: $d-vp;    							// Viewport for IE fixed width
+
+// At some point, you'll want to switch from a one column view to multi-column. 
+// This variable is used in the grid to dictate when you make that switch
+$start-columns 						: $a-vp;
+
+
+// ------------------------------------------------------------
+// :: Typesizes/scale
+// ------------------------------------------------------------
+
+$base-font-size						: 16px; 				// Sets the browser default size. Shouldn't need to change this.
+$base-line-height					: 4.4px;				// Baseline grid. Set to a sensible, small size.
+$round-to-nearest-half-line			: false;  				// Round the line height to the nearest half line height. Off by default 
+
+
+// ------------------------------------------------------------
+
+// Greek alphabet naming system. 
+// Obscure, yet hierarchical. 
+// Allows us to avoid naming based on html object. 
+
+$alpha   	: 42px;
+$beta		: 32px;
+$gamma		: 28px;
+$delta		: 26px;
+$epsilon	: 24px;
+$zeta		: 20px;
+$eta		: 18px;
+$theta		: 16px;
+$iota 		: 14px;
+$kappa 		: 12px;
+
+$para		: $theta; 	// Paragraph size
+$quote		: $zeta;	// Quote size
+
+
+// ------------------------------------------------------------
+// :: Forms
+// ------------------------------------------------------------
+
+$form-label-size: 	$iota;
+$form-legend-size: 	$delta;
+
+
+// ------------------------------------------------------------
+// :: Borders
+// ------------------------------------------------------------
+
+$default-border-width 				: 1px;  
+
+
+// ------------------------------------------------------------	
+// Add functional stuff 
+// ------------------------------------------------------------	
+
+@import "functions/functions";

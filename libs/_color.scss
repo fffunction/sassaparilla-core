@@ -1,0 +1,47 @@
+// ------------------------------------------------------------
+// Colours
+// ------------------------------------------------------------
+
+// Colors by name
+// ------------------------------------------------------------
+
+$color-white 						: #fff;
+$color-black 						: #333;
+$color-grey-medium					: #777;
+$color-grey-light					: #ddd;
+$color-shateal-oneil				: #4aaeb8;
+$color-raspberry-beret 				: #b84a9f;
+
+// Oh look, social media colours. You know you'll need them
+$facebook-color 					: #3B5998;
+$twitter-color 						: #4099FF;
+$linkedin-color						: #007bb6;
+$youtube-color						: #e52d27;
+$pinterest-color					: #C92228;
+$instagram-color 					: #517fa4;
+$tumblr-color 						: #32506d;
+$foursquare-color 					: #0072b1;
+$google-color 						: #dd4b39;
+$flickr-color 						: #ff0084;
+
+
+// Colors assigned to roles
+// ------------------------------------------------------------
+
+$body-color 						: $color-white;  			// Color of the body, or page bkg
+$base-color							: $color-grey-medium;  		// Base color. Our root. I use this for default text color
+$heading-color						: $color-black;  			// Color of headings
+$action								: $color-shateal-oneil;		// Better way to say link color
+$action-respond						: $color-raspberry-beret;	// Secondary links
+
+
+// Borders
+// ------------------------------------------------------------
+
+$default-border-color 				: $color-grey-light;
+
+
+// Forms
+// ------------------------------------------------------------
+
+$form-label-color					: $heading-color;
